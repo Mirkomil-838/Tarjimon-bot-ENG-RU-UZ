@@ -11,3 +11,6 @@ Misol uchun:
 3. Bu fayni saqlaymiz va uni HEROKU ga deploy qilamiz.
 4. Heroku ga yuklangan proyektimiz oynasidan Resources bo`limini ochamiz.
 5. Bu bo`limda biz yuqorida yozgan funksiya nomi chiqib keladi. Bu funksiyani yoqib qo`yamiz!
+![Procfile](https://user-images.githubusercontent.com/71525239/136661734-b301b19a-63ce-4f0e-94a5-d9d1041e6e84.png)
+
+![Heroku](https://user-images.githubusercontent.com/71525239/136661736-aae54dcd-033c-45ec-ae78-98b425c951b9.png)
