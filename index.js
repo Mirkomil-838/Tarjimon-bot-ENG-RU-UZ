@@ -6,6 +6,7 @@ const bot =  new Telegraf("2046559445:AAHNh8NwRr5t7Os-uQ1H7grGq3o4941epWs");
 
 bot.start(msg=>{
 msg.replyWithHTML("<b>Assalomu alaykum. Tarjimon botga Xush kelibsiz!!!</b>.\nKerakli menyuning tanlang va foydalaning.\n__________________\nMaximum kiritilishi kerak bo`lgan belgilar soni <u>500 ta</u>.\n\n@Abdumannon_Shamsiyev")
+    .atch(e=>{});
 
 
 })
@@ -18,37 +19,37 @@ bot.on("text", msg=>{
 switch (msg.message.text) {
     case "/auto":
         method = "auto";
-        msg.reply("Avtomatik tarjima qilish rejimiga o`tildi.")
+        msg.reply("Avtomatik tarjima qilish rejimiga o`tildi.").catch(e=>{});
         return
         break;
         case "/uzru":
             method = "uzru";
-            msg.reply("O`zbek tilidan Rus tiliga tarjima qilish rejimiga o`tildi.")
+            msg.reply("O`zbek tilidan Rus tiliga tarjima qilish rejimiga o`tildi.").catch(e=>{});
             return
             break;
             case "/uzen":
         method = "uzen";
-        msg.reply("O`zbek tilidan Ingliz tiliga tarjima qilish rejimiga o`tildi.")
+        msg.reply("O`zbek tilidan Ingliz tiliga tarjima qilish rejimiga o`tildi.").catch(e=>{});
         return
         break;
         case "/ruuz":
         method = "ruuz";
-        msg.reply("Rus tilidan O`zbek tiliga tarjima qilish rejimiga o`tildi.")
+        msg.reply("Rus tilidan O`zbek tiliga tarjima qilish rejimiga o`tildi.").catch(e=>{});
         return
         break;
         case "/enuz":
         method = "enuz";
-        msg.reply("Ingliz tilidan O`zbek tiliga tarjima qilish rejimiga o`tildi.")
+        msg.reply("Ingliz tilidan O`zbek tiliga tarjima qilish rejimiga o`tildi.").catch(e=>{});
         return
         break;
         case "/enru":
         method = "enru";
-        msg.reply("Ingliz tilidan Rus tiliga tarjima qilish rejimiga o`tildi.")
+        msg.reply("Ingliz tilidan Rus tiliga tarjima qilish rejimiga o`tildi.").catch(e=>{});
         return
         break;
         case "/ruen":
         method = "ruen";
-        msg.reply("Rus tilidan Ingliz tiliga tarjima qilish rejimiga o`tildi.")
+        msg.reply("Rus tilidan Ingliz tiliga tarjima qilish rejimiga o`tildi.").catch(e=>{});
         return
         break;
 
@@ -72,11 +73,11 @@ if (msg.message.text.length<=500) {
                 })
         
                 .then(res=>{
-                    msg.replyWithHTML(`<b>${res.data.responseData.translatedText}</b>`)
+                    msg.replyWithHTML(`<b>${res.data.responseData.translatedText}</b>`).catch(e=>{});
                     
                 })
                 .catch(err=>{
-                    msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>")
+                    msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>").catch(e>{});
                 })
             
           return
@@ -95,11 +96,11 @@ if (msg.message.text.length<=500) {
                     })
             
                     .then(res=>{
-                        msg.replyWithHTML(`<b>${res.data.responseData.translatedText}</b>`)
+                        msg.replyWithHTML(`<b>${res.data.responseData.translatedText}</b>`).catch(e=>{});
                         
                     })
                     .catch(err=>{
-                        msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>")
+                        msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>").catch(e=>{});
                     })
                 
               return
@@ -121,7 +122,7 @@ if (msg.message.text.length<=500) {
                             
                         })
                         .catch(err=>{
-                            msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>")
+                            msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>").catch(e=>{});
                         })
                     
                   return
@@ -139,11 +140,11 @@ if (msg.message.text.length<=500) {
                         })
                 
                         .then(res=>{
-                            msg.replyWithHTML(`<b>${res.data.responseData.translatedText}</b>`)
+                            msg.replyWithHTML(`<b>${res.data.responseData.translatedText}</b>`).catch(e=>{});
                             
                         })
                         .catch(err=>{
-                            msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>")
+                            msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>").catch(e=>{});
                         })
                     
                   return
@@ -162,11 +163,11 @@ if (msg.message.text.length<=500) {
                             })
                     
                             .then(res=>{
-                                msg.replyWithHTML(`<b>${res.data.responseData.translatedText}</b>`)
+                                msg.replyWithHTML(`<b>${res.data.responseData.translatedText}</b>`).catch(e=>{});
                                 
                             })
                             .catch(err=>{
-                                msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>")
+                                msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>").catch(e=>{});
                             })
                         
                       return
@@ -185,11 +186,11 @@ if (msg.message.text.length<=500) {
                                 })
                         
                                 .then(res=>{
-                                    msg.replyWithHTML(`<b>${res.data.responseData.translatedText}</b>`)
+                                    msg.replyWithHTML(`<b>${res.data.responseData.translatedText}</b>`).catch(e=>{});
                                     
                                 })
                                 .catch(err=>{
-                                    msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>")
+                                    msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>").catch(e=>{});
                                 })
                             
                           return
@@ -210,7 +211,7 @@ if (msg.message.text.length<=500) {
 
 
 } else {
-    msg.replyWithHTML("<i>Kiritilgan matn uzunligi 500 belgidan oshib ketdi!</i>")
+    msg.replyWithHTML("<i>Kiritilgan matn uzunligi 500 belgidan oshib ketdi!</i>").catch(e=>{});
 
 }
 
