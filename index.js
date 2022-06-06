@@ -77,7 +77,7 @@ if (msg.message.text.length<=500) {
                     
                 })
                 .catch(err=>{
-                    msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>").catch(e>{});
+                    msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳").catch(e>{});
                 })
             
           return
@@ -100,7 +100,7 @@ if (msg.message.text.length<=500) {
                         
                     })
                     .catch(err=>{
-                        msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>").catch(e=>{});
+                        msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳").catch(e=>{});
                     })
                 
               return
@@ -122,7 +122,7 @@ if (msg.message.text.length<=500) {
                             
                         })
                         .catch(err=>{
-                            msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>").catch(e=>{});
+                            msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳").catch(e=>{});
                         })
                     
                   return
@@ -144,7 +144,7 @@ if (msg.message.text.length<=500) {
                             
                         })
                         .catch(err=>{
-                            msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>").catch(e=>{});
+                            msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳").catch(e=>{});
                         })
                     
                   return
@@ -167,7 +167,7 @@ if (msg.message.text.length<=500) {
                                 
                             })
                             .catch(err=>{
-                                msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<</code>").catch(e=>{});
+                                msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳").catch(e=>{});
                             })
                         
                       return
@@ -190,7 +190,7 @@ if (msg.message.text.length<=500) {
                                     
                                 })
                                 .catch(err=>{
-                                    msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>").catch(e=>{});
+                                    msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳").catch(e=>{});
                                 })
                             
                           return
