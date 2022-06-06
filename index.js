@@ -2,7 +2,7 @@
 const {Telegraf}  = require("telegraf");
 const axios = require("axios").default
 
-const bot =  new Telegraf("2046559445:AAHNh8NwRr5t7Os-uQ1H7grGq3o4941epWs");
+const bot =  new Telegraf("5424907566:AAGGuuMSPq05gcrDm3o_1mGYN5NPXw-qDqA");
 
 bot.start(msg=>{
 msg.replyWithHTML("<b>Assalomu alaykum. Tarjimon botga Xush kelibsiz!!!</b>.\nKerakli menyuning tanlang va foydalaning.\n__________________\nMaximum kiritilishi kerak bo`lgan belgilar soni <u>500 ta</u>.\n\n@Abdumannon_Shamsiyev")
@@ -167,7 +167,7 @@ if (msg.message.text.length<=500) {
                                 
                             })
                             .catch(err=>{
-                                msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<code>9860160131029128</code>").catch(e=>{});
+                                msg.replyWithHTML("ERROR: 404\n\nBot yana qayta o`z ish faoliyatini davom ettirishi uchun qo`llab quvvatlang!\n💳<</code>").catch(e=>{});
                             })
                         
                       return
